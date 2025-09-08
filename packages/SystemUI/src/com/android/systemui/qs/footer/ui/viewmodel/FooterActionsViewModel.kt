@@ -406,8 +406,8 @@ fun settingsButtonViewModel(
             R.drawable.ic_settings,
             ContentDescription.Resource(R.string.accessibility_quick_settings_settings),
         ),
-        iconTint = Utils.getColorAttrDefaultColor(qsThemedContext, R.attr.onShadeInactiveVariant),
-        backgroundColor = R.attr.shadeInactive,
+        iconTint = Utils.getColorAttrDefaultColor(qsThemedContext, R.attr.onShadeActive),
+        backgroundColor = R.attr.shadeActive,
         onSettingsButtonClicked,
     )
 }
